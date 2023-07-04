@@ -9,18 +9,14 @@ pinned: true
 app_file: app.py
 ---
 
-# Chinese-LangChain
+# LangChain ChatGLM_6B
 
-> Chinese-LangChain：中文langchain项目，基于ChatGLM-6b+langchain实现本地化知识库检索与智能答案生成
-
-https://github.com/yanqiangmiffy/Chinese-LangChain
-
-俗称：小必应，Q.Talk，强聊，QiangTalk
+> LangChain_ChatGLM_6B：基于ChatGLM-6b+langchain实现本地化知识库检索与智能答案生成
 
 ## 🔥 效果演示
 
-![](https://github.com/yanqiangmiffy/Chinese-LangChain/blob/master/images/web_demos/v1.png)
-![](https://github.com/yanqiangmiffy/Chinese-LangChain/blob/master/images/web_demos/v3.png)
+![](https://github.com/shanggangli/LangChain_ChatGLM_6B/blob/main/images/knowledge.png)
+![](https://github.com/shanggangli/LangChain_ChatGLM_6B/blob/main/images/web.png)
 
 ## 🚋 使用教程
 
@@ -32,7 +28,7 @@ https://github.com/yanqiangmiffy/Chinese-LangChain
 
 - 显存：12g，实际运行9g够了
 - 运行内存：32g
-
+- 本项目使用了两张T4显卡，模型并行运行
 ### 运行环境
 
 ```text
@@ -53,22 +49,6 @@ cchardet
 ```shell
 python main.py
 ```
-
-## 🚀 特性
-- 🚀 2023/05/19 [yanlijun573](https://github.com/yanlijun573)提供[streamlit](https://github.com/yanqiangmiffy/Chinese-LangChain/tree/streamlit)分支
-- 🚀 2023/04/22 支持模型多机多卡推理
-- 🔭 2023/04/20 支持模型问答与检索问答模式切换
-- 💻 2023/04/20 感谢HF官方提供免费算力，添加HuggingFace
-  Spaces在线体验[[🤗 DEMO](https://huggingface.co/spaces/ChallengeHub/Chinese-LangChain)
-- 🧫 2023/04/19 发布45万Wikipedia的文本预处理语料以及FAISS索引向量
-- 🐯 2023/04/19 引入ChuanhuChatGPT皮肤
-- 📱 2023/04/19 增加web search功能，需要确保网络畅通！(感谢[@wanghao07456](https://github.com/wanghao07456),提供的idea)
-- 📚 2023/04/18 webui增加知识库选择功能
-- 🚀 2023/04/18 修复推理预测超时5s报错问题
-- 🎉 2023/04/17 支持多种文档上传与内容解析：pdf、docx，ppt等
-- 🎉 2023/04/17 支持知识增量更新
-
-[//]: # (- 支持检索结果与LLM生成结果对比)
 
 ## 🧰 知识库
 
@@ -101,29 +81,11 @@ python main.py
 * [ ] 显示当前对话策略
 * [ ] 构建一个垂直业务场景知识库，非通用性
 
-## 交流
 
-欢迎多提建议、Bad cases，目前尚不完善，欢迎进群及时交流，也欢迎大家多提PR</br>
-
-<figure class="third">
-  <img src="https://raw.githubusercontent.com/yanqiangmiffy/Chinese-LangChain/master/images/ch.jpg" width="180px">
-  <img src="https://raw.githubusercontent.com/yanqiangmiffy/Chinese-LangChain/master/images/chatgroup.jpg" width="180px" height="270px">
-
-</figure>
-
-合作交流可以联系：
-
-<img src="https://raw.githubusercontent.com/yanqiangmiffy/Chinese-LangChain/master/images/personal.jpg" width="180px">
 
 ## ❤️引用
-
+- Chinese_LangChain：https://github.com/yanqiangmiffy/Chinese-LangChain
 - webui参考：https://github.com/thomas-yanxin/LangChain-ChatGLM-Webui
 - knowledge问答参考：https://github.com/imClumsyPanda/langchain-ChatGLM
 - LLM模型：https://github.com/THUDM/ChatGLM-6B
 - CSS：https://huggingface.co/spaces/JohnSmith9982/ChuanhuChatGPT
-
-
-
-## ⭐️ Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=yanqiangmiffy/Chinese-LangChain&type=Date)](https://star-history.com/#yanqiangmiffy/Chinese-LangChain&Date)
